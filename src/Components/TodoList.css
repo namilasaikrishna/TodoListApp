@@ -1,0 +1,29 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    height: 40px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px; 
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 50px grey;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+    padding-right: 40px;
+    padding-left: 5px;
+}
+
+.icon{
+    color: #ffffff;
+    margin-right: 5px;
+}
